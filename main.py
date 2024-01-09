@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Welcome to BMI Calculator')
+st.title('BMI Calculate Created by Huraira')
 weight = st.number_input("Enter your weight (in kgs)")
 status = st.radio('Select your height format: ',
 				('cms', 'meters', 'feet'))
